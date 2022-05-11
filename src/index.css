@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(components/img/erik-mclean-QzpgqElvSiA-unsplash.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+
+  margin: 0;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.cardbody {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 7px;
+}
+
+.author {
+  color: grey;
+  font-size: 18px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  float: right;
+  justify-content: flex-end;
+  margin: 0 25px;
+  margin-top: 10px;
+  color: rgb(109, 109, 109);
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  float: left;
+  border: solid 3px rgb(177, 11, 113);
+  border-radius: 5px;
+  margin: 5px 25px;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  text-decoration: none;
+  padding: 5px 5px;
+}
+
+#navigation {
+  overflow: hidden;
+  background-color: rgb(180, 180, 180) !important;
+}
+
+.h1 {
+  display: flex;
+  height: 100px;
+  opacity: 0.8;
+  color: white;
+  background-color: rgb(88, 88, 95);
+  justify-content: center;
+  margin-top: 25px;
+  padding-top: 25px;
+  font-family: "DM Serif Display", serif;
+}
+
+div.headerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#img-div {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+.h2 {
+  text-align: center;
+}
+.cardbody {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#btn-card {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 150px;
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  background-color: rgb(202, 51, 202);
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 5px 5px;
+}
+
+.map {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 55px;
+}
+
+.about-txt,
+.about-heading {
+  display: flex;
+  justify-content: center;
+}
+hr.solid {
+  border-top: 3px solid #bbb;
+  margin: 10px;
+}
+
+.header {
+  background-image: url(components/img/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg);
+  color: white;
+  /* display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto; */
+}
+
+.about {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
