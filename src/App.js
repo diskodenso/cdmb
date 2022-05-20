@@ -10,14 +10,20 @@ const App = () => {
   const [error, setError] = useState();
   console.log(posts);
 
+  // useEffect(() => {
+  //   client
+  //     .getEntries({ order: "sys.createdAt" })
+  //     .then((response) => {
+  //       console.log(response.items);
+  //       setPosts(response.items);
+  //     })
+  //     .catch((error) => setError(error));
+  // }, []);
   useEffect(() => {
-    client
-      .getEntries({ order: "sys.createdAt" })
-      .then((response) => {
-        console.log(response.items);
-        setPosts(response.items);
-      })
-      .catch((error) => setError(error));
+    fetch("http://localhost:5000/api/posts")
+      .then((res) => res.json())
+      .then((data) => setData(data))
+      .catch((error) => console.log(error));
   }, []);
   return (
     <div className="App">
